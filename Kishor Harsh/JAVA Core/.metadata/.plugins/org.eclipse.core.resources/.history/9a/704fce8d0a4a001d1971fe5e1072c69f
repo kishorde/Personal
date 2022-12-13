@@ -1,0 +1,19 @@
+package com.cybage.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MathOperationsTest {
+
+	@Test
+	public void testAdd() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSub() {
+		fail("Not yet implemented");
+	}
+
+}

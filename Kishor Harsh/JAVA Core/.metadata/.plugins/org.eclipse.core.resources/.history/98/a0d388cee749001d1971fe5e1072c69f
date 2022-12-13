@@ -1,0 +1,5 @@
+package com.cybage.jdbc;
+
+public class JDBCUtility {
+
+}

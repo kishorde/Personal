@@ -1,0 +1,17 @@
+.main_header {
+  background-color: aquamarine;
+  border: 4px solid black;
+  text-align: center;
+}
+.main_header h1 {
+  background-color: crimson;
+}
+.main_header h1:hover {
+  background-color: azure;
+  color: red;
+}
+
+h1:hover {
+  background-color: azure;
+  color: red;
+}/*# sourceMappingURL=parentSelectorDemo.css.map */

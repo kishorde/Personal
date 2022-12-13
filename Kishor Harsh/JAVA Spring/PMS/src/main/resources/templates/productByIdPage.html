@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+
+<body>
+
+<h1 style="color: red; ">Product by Id : </h1>
+<!--<tr th:each="product : ${product}">-->
+	<h3 th:text= "${product.productId}"/>
+	<h3 th:text= "${product.productName}"/>
+	<h3 th:text= "${product.price}"/><br>
+<!--</tr>-->
+</body>
+</html>

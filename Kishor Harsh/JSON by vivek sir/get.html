@@ -1,0 +1,40 @@
+<!-- https://developers.google.com/speed/libraries -->
+<!-- Link of that script (jQuery 3.x snippet:) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $.getJSON('http://localhost:3000/Employee',function(data){
+                var mydata='';
+                $.each(data,function(key,value){
+
+                
+                mydata+='<tr>';
+                mydata+='<td>'+value.id+'</td>';
+                mydata+='<td>'+value.Name+'</td>';
+                mydata+='</tr>';
+            });
+            $('#table1').append(mydata);
+        });
+    });
+    </script>
+</head>
+<body>
+    
+    <table id="table1">
+        <tr>
+        <th> Employee Id</th>
+        <th> Employee Name</th>
+        </tr>
+    </table>
+</body>
+</html>

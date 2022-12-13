@@ -1,0 +1,12 @@
+@import '_allVariables';
+
+@mixin div_style
+{
+    background-color: $bg;
+    position: $p;
+    color: $c;
+    padding-left: $leftpadding;
+    height:500px;
+    width: 500px;
+    
+}

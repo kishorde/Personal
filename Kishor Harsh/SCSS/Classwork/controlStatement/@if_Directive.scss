@@ -1,0 +1,30 @@
+@function func($var)
+{
+    @return $var*3+100;
+}
+
+$b: 3px solid lightgreen;
+$fs: italic;
+@if ".icon" {
+    .icon{
+        height: func(200)px;
+        border: $b;
+    }
+}
+@else if ".info"
+{
+    .info{
+        // height: func(100)px;
+        border: $b;
+        font-style: $fs;
+    }
+}
+
+
+$var:34;
+@if $var%2==0{
+    @warn "even";
+}
+@else{
+    @warn "odd";
+}

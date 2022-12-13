@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <title>Document</title>
+    <style>
+        #mydiv{
+            background-color: aqua;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#mydiv").append("<p>This is from jquery append</p>");
+                $("#mydiv").after("<p>This is from jquery after</p>");
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>This is para</p>
+    <button>Click here</button>
+    <a href="https://google.com">click here</a>
+    <div id="mydiv">This is a div </div>
+</body>
+</html>

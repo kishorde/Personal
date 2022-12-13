@@ -1,0 +1,12 @@
+
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ýÀ¿EH×RMINORZ
+CODE_SMELL
+a
+java:S2387"."salary" is the name of a field in "Employee".(†ñªÈþÿÿÿÿHØRBLOCKERZ
+CODE_SMELL
+n
+java:S2094"BRemove this empty class, write its code or make it an "interface".(¢„±ÅHÙRMINORZ
+CODE_SMELL
+b
+java:S1135'"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHÚRINFOZ
+CODE_SMELL

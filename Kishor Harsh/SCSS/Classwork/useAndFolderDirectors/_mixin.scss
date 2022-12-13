@@ -1,0 +1,9 @@
+@use 'variables' as v;
+
+@forward 'variables';
+
+@mixin d_style{
+    background-color: v.$bg;
+    border: v.$b;
+    color: v.$c;
+}

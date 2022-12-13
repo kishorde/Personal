@@ -1,0 +1,14 @@
+
+g	java:S125'"<This block of commented-out lines of code should be removed.(»±Ù¬HåRMAJORZ
+CODE_SMELL
+g	java:S125/"<This block of commented-out lines of code should be removed.(Ú°à¬HçRMAJORZ
+CODE_SMELL
+w
+java:S1192;"HDefine a constant instead of duplicating this literal "product" 8 times.(‡Æï¿HÙRCRITICALZ
+CODE_SMELL
+
+java:S1192;"PDefine a constant instead of duplicating this literal "displayProducts" 4 times.(‡Æï¿HáRCRITICALZ
+CODE_SMELL
+i
+java:S1128"1Remove this unused import 'javax.naming.Binding'.(ÛÆ§“úÿÿÿÿ8…ñÍ†Ä0HêRMINORZ
+CODE_SMELL

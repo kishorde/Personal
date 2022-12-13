@@ -1,0 +1,4 @@
+log4j.rootLogger=DEBUG, cAppender
+
+log4j.appender.cAppender=org.apachelog4j.ConsoleAppender
+log4j.appender.cAppender.layout=org.apache.log4j.SimpleLayout

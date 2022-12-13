@@ -1,0 +1,38 @@
+package com.cybage.basic;
+
+class One
+{
+	private int num=4;
+	
+	private void shownum()
+	{
+		System.out.println("num value is: "+num);
+	}
+}
+class Two
+{
+	public int num=4;
+	
+	public void shownum()
+	{
+		System.out.println("num value is: "+num);
+	}
+}
+
+
+public class Assignment3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		One obj1=new One();
+//		System.out.println(obj1.num);
+//		obj1.shownum();
+		
+		Two obj2=new Two();
+		System.out.println(obj2.num);
+			
+	}
+
+}

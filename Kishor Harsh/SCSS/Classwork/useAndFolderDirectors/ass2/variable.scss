@@ -1,0 +1,25 @@
+$h:300px;
+$w:300px;
+
+// $l:(1:red,2:green,3:blue, 4:orange);
+
+
+// @for $i from 1 to 5
+// {
+//     #d#{$i}{
+//         background-color: map-get($map: $l, $key: $i );
+//         height: $h;
+//         width: $w;
+//     }
+// }
+
+$c:red,black,pink,yellow;
+
+@each $color in $c{
+    #d#{$color}
+    {
+        background-color: #{$color};
+        width: $w;
+        height: $h;
+    }
+}

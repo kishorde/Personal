@@ -1,0 +1,22 @@
+package com.cyabage.FunamentalsOfJava1;
+
+import java.util.Scanner;
+
+public class Assignment4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scObj=new Scanner(System.in);
+		
+		System.out.println("Enter 6 digit number : ");
+		int input=scObj.nextInt();
+		
+		int a=input/100000;
+		int b=input/10000
+		int c = 0,d = 0,e = 0,f = 0;
+		System.out.println(a +" "+b+" "+c+" "+d+" "+e+" "+f);
+		
+
+	}
+
+}

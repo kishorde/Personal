@@ -1,0 +1,24 @@
+package com.cybage.jdbc;
+
+public class EmployeeDemo {
+	
+	public void Insert()
+	{
+		try
+		{
+			
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

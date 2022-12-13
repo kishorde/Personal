@@ -1,0 +1,10 @@
+package com.cybage.model;
+
+public class Customer {
+	
+	Customer(int id, string name, string address, string emailId 
+	private int id;
+	private String name;
+	private String 
+
+}

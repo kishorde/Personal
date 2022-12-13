@@ -1,0 +1,42 @@
+@import '_mixin';
+
+#bodyb{
+    @include body_mix
+}
+
+.head{
+    @include head_mix
+}
+
+#logo{
+    @include logo
+}
+
+#slogan{
+    @include slogan
+}
+
+
+#login{
+    @include login
+}
+
+#scroll{
+    @include scroll
+}
+
+#imagee{
+    @include imagee
+}
+
+#foot{
+    @include foot
+}
+
+#foot a{
+    @include foot_a
+}
+
+#copy{
+    @include hsix
+}

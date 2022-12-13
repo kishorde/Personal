@@ -1,0 +1,47 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÚ£¯HöRMINORZ
+CODE_SMELL
+n
+java:S2095D"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÜÉH÷RBLOCKERZBUG
+n
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÜÉHøRBLOCKERZBUG
+{
+java:S2095!"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ï™Ã©ûÿÿÿÿHùRBLOCKERZBUG
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ôº‰HúRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ó†ÇøÿÿÿÿHûRMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(äÅ¿HüRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Ì½óÿùÿÿÿÿHıRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Ü³È˜HşRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ô«ùÏHÿRMAJORZ
+CODE_SMELL
+d	java:S106."9Replace this use of System.out or System.err by a logger.(ÛîÅ¥H€RMAJORZ
+CODE_SMELL
+c	java:S1062"9Replace this use of System.out or System.err by a logger.(ì›—yHRMAJORZ
+CODE_SMELL
+i
+java:S1854D">Remove this useless assignment to local variable "connection".(ÜÉH‚RMAJORZ
+CODE_SMELL
+g
+java:S1854I"6Remove this useless assignment to local variable "sc".(ğÛ²¸øÿÿÿÿHƒRMAJORZ
+CODE_SMELL
+Z
+java:S1481D"/Remove this unused "connection" local variable.(ÜÉH„RMINORZ
+CODE_SMELL
+i	java:S106E"9Replace this use of System.out or System.err by a logger.(ó†ÇøÿÿÿÿH†RMAJORZ
+CODE_SMELL
+i	java:S106G"9Replace this use of System.out or System.err by a logger.(Ç…É§ıÿÿÿÿH‡RMAJORZ
+CODE_SMELL
+X
+java:S1481I"'Remove this unused "sc" local variable.(ğÛ²¸øÿÿÿÿHˆRMINORZ
+CODE_SMELL
+b
+java:S1135T"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHŠRINFOZ
+CODE_SMELL
+f
+java:S1128"5Remove this unused import 'com.mysql.cj.jdbc.Driver'.(Áã·”ùÿÿÿÿH‹RMINORZ
+CODE_SMELL

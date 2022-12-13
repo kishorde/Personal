@@ -1,0 +1,23 @@
+package com.cyabage.FunamentalsOfJava1;
+
+//Create a class Employee  & write Accessors & Mutators
+//Create objects with default constructor & set values using mutators.
+//Display/print values of attributes of each object created.(AccessorAndModulator)
+
+class Employee
+{
+	Employee()
+	{
+		System.out.println("Default Constructor");
+	}
+	
+}
+public class Assignment1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Employee emp=new Employee();
+	}
+
+}

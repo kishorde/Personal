@@ -1,0 +1,94 @@
+<!-- ##create one program for all the devices and perform following criteria.
+1. apply this effect when device would be mobile phones only
+-> change the color of the background
+-> increase the size of the text 
+-> text style would be changed
+
+2. aplly this effect when device would be tablets or bigger than tablets
+-> change the color of the background
+-> increase the size of the text
+-> text style would be changed 
+-> padding should be increased
+
+3. apply this effect when device would be laptop or desktop
+  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #h1{
+            background-color: blue;
+            font-size: 120px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        #div1{
+            background-color: rgb(97, 49, 49);
+            padding: 10px;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            border: 10px solid gold;
+        }
+
+
+        @media screen and (max-width:600px){
+            #h1{
+                background-color: aqua;
+                font-size: 50px;
+            }
+            #div1{
+                font-size: 80px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            
+        }
+        @media screen and (min-width:600px) and (max-width:768px){
+            #h1{
+                background-color: yellowgreen;
+                font-size: 70px;
+            }
+            #div1{
+                font-size: 100px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-style: italic;
+                padding: 30px;
+                border: 10px solid red;
+                color: rgb(31, 26, 25);
+            }
+            
+        }
+        @media screen and (min-width:768px) and (max-width:992px){
+            #h1{
+                background-color: pink;
+                font-size: 80px;
+            }
+            #div1{
+                font-size: 120px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+                padding: 50px;
+                border: 10px solid red;
+                color: gold;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1"> This is my heading</h1>
+
+    <div id="div1">
+        <p>This is my paragraph</p>
+        <p>This is my paragraph</p>
+        <p>This is my paragraph</p>
+        <p>This is my paragraph</p>
+        <p>This is my paragraph</p>
+    </div>
+</body>
+</html>

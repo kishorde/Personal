@@ -1,0 +1,30 @@
+$lang:".Net";
+
+
+@if $lang=="Java"{
+    #d2{
+        background-color: grey;
+    }
+}
+
+@else if $lang=="FET"
+{
+    #d1{
+        background-color: red;
+    }
+}
+
+@else if $lang=="Python"
+{
+    #d4{
+        background-color: blue;
+    }
+}
+@else if $lang==".Net"
+{
+    #d3{
+    background-color: aqua;
+    }
+}
+
+

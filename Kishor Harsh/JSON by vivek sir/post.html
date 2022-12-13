@@ -1,0 +1,52 @@
+<!-- https://developers.google.com/speed/libraries -->
+<!-- Link of that script (jQuery 3.x snippet:) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+        function myData()
+        {
+            
+            let id=$('#id').val(),
+            Name = $('#Name').val();
+
+            $.post('http://localhost:3000/Employee', {
+                id:id,
+                Name:Name
+                
+            },function(response){
+                alert("Added!")
+            });
+        }
+
+
+    </script>
+
+       
+</head>
+<body>
+    
+    <table id="table1">
+        <tr>
+        <th> Employee Id</th>
+        <th> Employee Name</th>
+        </tr>
+    </table>
+
+    <form action="">
+        <input type="number" placeholder="Enter Id" value="id"  id="id">
+        <input type="text"  placeholder="Enter Name" id="Name">
+        <input type="button" onclick="myData()" value="submit" id="submit">
+    </form>
+
+    
+</body>
+</html>

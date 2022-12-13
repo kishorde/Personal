@@ -1,0 +1,11 @@
+package com.cybage.junit;
+
+public class DemoTest {
+
+	@Test(timeout = 100)
+	public void testRandom()
+	{
+		Demo demo = new Demo();
+		
+	}
+}

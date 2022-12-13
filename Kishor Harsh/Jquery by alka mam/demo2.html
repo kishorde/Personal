@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <title>Document</title>
+</head>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("p").html("<h1> heading inside para</h1>");
+            $("a").attr("href","https://releases.jquery.com/");
+        });
+    });
+</script>
+<body>
+    <p>this is para</p>
+    <button>Change text</button>
+    <a href="https://www.google.com">Click anchor tag</a>
+</body>
+</html>

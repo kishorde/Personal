@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "18",
+      "title": "java",
+      "author": "amar"
+    },
+    {
+      "id": "188",
+      "title": "java",
+      "author": "amar"
+    },
+    {
+      "title": "java",
+      "author": "amar",
+      "id": "a3hCpPR"
+    },
+    {
+      "id": "3",
+      "title": "abc",
+      "author": "xyz"
+    },
+    {
+      "id": "4",
+      "title": "h gjhjh",
+      "author": "ghjgh"
+    },
+    {
+      "id": "hMAukja",
+      "title": "",
+      "author": ""
+    },
+    {
+      "id": "l4PpmxM",
+      "title": "",
+      "author": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

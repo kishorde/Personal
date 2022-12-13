@@ -1,0 +1,12 @@
+
+g	java:S125"<This block of commented-out lines of code should be removed.(Ú°à¬H¼RMAJORZ
+CODE_SMELL
+\
+java:S1444	"0Make this "public static connection" field final(€§ÜØHÄRMINORZ
+CODE_SMELL
+‚
+java:S1104	"VMake connection a static final constant or non-public and provide accessors if needed.(€§ÜØHÅRMINORZ
+CODE_SMELL
+f
+java:S1118":Add a private constructor to hide the implicit public one.(«„œÛHÆRMAJORZ
+CODE_SMELL

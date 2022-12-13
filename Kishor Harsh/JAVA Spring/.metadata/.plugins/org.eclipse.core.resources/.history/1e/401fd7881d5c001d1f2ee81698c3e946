@@ -1,0 +1,10 @@
+package com.cybage.model;
+
+public class Book {
+	
+	@Min(10)
+	@Max()
+	private int bookId;
+	
+
+}

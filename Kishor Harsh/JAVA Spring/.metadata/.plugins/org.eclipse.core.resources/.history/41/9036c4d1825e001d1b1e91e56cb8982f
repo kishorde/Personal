@@ -1,0 +1,8 @@
+package com.cybage.model;
+
+public class Order {
+	
+	private int orderId;
+	private List<>
+
+}

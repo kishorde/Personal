@@ -1,0 +1,6 @@
+package com.cybage.controller;
+
+@RestController
+public class DemoController {
+
+}

@@ -1,0 +1,7 @@
+@use "mixin" as m;
+// @forward "clubAll";
+
+#div1{
+    @include m.d_style;
+    // background-color: aqua;
+}

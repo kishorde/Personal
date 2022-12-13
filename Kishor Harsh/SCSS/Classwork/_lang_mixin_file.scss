@@ -1,0 +1,25 @@
+@import '_lang_variable';
+
+@mixin lang{
+    background-color: $bgci;
+    border: $bi;
+    font-size: $fsi;
+    font-style: $fsti;
+    color: $fci;
+}
+
+
+@mixin founder{
+    background-color: $bgcf;
+    border: $bf;
+    font-size: $fsf;
+    font-style: $fstf;
+    color: $fcf;
+}
+
+@mixin imagei {
+    height: $hi;
+    width: $wi;
+    border: $bi;
+    
+}

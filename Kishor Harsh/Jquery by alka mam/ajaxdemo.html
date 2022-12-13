@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".btn").click(function(){
+                $.ajax({
+                    url:"https://reqres.in/api/users",
+                    type:"post",
+                    data:{
+                        "name": "John",
+                        "job": "Analyst"
+                    },
+                    success:function(data,status,xhr){
+                        $('.text').text(JSON.stringify(data));
+                        console.log("status : "+status);
+                        console.log(xhr.statusText);
+                    },
+                    dataType:'JSON',
+                    error: function(error)
+                    {
+                        alert("Error");
+                    }
+                })
+            })
+        })
+
+    </script>
+</head>
+<body>
+    <button type="button" class="btn"> click</button>
+    <p class="text">replace</div>
+    
+</body>
+</html>

@@ -1,0 +1,8 @@
+log4j.rootLogger=INFO, cAppender
+
+// in rootlogger we have to set this level as per need
+// We have different levels like DEBUG,WARN,INFO,FATAL,ERORR
+
+
+log4j.appender.cAppender=org.apache.log4j.ConsoleAppender
+log4j.appender.cAppender.layout=org.apache.log4j.SimpleLayout

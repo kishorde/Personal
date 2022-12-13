@@ -1,0 +1,13 @@
+@import '_lang_mixin_file';
+
+img{
+    @include imagei;
+}
+
+#div0{
+    @include lang;
+}
+
+#div1{
+    @include founder;
+}

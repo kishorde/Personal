@@ -1,0 +1,6 @@
+
+z
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¤¨²óúÿÿÿÿH®RMAJORZBUG
+‘
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "product1".(¤¨²óúÿÿÿÿH¯RMINORZ
+CODE_SMELL

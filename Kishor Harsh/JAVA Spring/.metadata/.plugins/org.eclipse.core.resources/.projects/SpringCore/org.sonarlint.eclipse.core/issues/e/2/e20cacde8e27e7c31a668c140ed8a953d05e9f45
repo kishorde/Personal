@@ -1,0 +1,38 @@
+
+—
+java:S1128"_Remove this unused import 'org.springframework.context.support.ClassPathXmlApplicationContext'.(•ËÛüÿÿÿÿ8ÁşÑÍ¿0HRMINORZ
+CODE_SMELL
+‚
+java:S1128"JRemove this unused import 'org.springframework.beans.factory.BeanFactory'.(ĞÚû±ıÿÿÿÿ8ÁşÑÍ¿0H—RMINORZ
+CODE_SMELL
+s	java:S1254"<This block of commented-out lines of code should be removed.(¦õªèüÿÿÿÿ8‘şŠÎ¿0H³RMAJORZ
+CODE_SMELL
+j
+java:S1128
+"7Remove this unused import 'com.cybage.bean.Department'.(‰ÿ“º8‘şŠÎ¿0H¸RMINORZ
+CODE_SMELL
+
+java:S1128"GRemove this unused import 'org.springframework.boot.SpringApplication'.(¯ìÙÿÿÿÿÿ8ÁşÑÍ¿0H™RMINORZ
+CODE_SMELL
+‰
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8ÁşÑÍ¿0H›RMINORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(Æø˜„8ûâÇ¿0H`RMAJORZ
+CODE_SMELL
+p	java:S106("9Replace this use of System.out or System.err by a logger.(âˆªÿÿÿÿÿ8Ê»ØÉ¿0H¤RMAJORZ
+CODE_SMELL
+p	java:S106."9Replace this use of System.out or System.err by a logger.(ÒƒÊõÿÿÿÿÿ8ÓÓÿÉ¿0HöRMAJORZ
+CODE_SMELL
+k	java:S106)"9Replace this use of System.out or System.err by a logger.(„ªÕà8Ê»ØÉ¿0H¢RMAJORZ
+CODE_SMELL
+k	java:S1060"9Replace this use of System.out or System.err by a logger.(î¦÷„8ÁşÑÍ¿0H•RMAJORZ
+CODE_SMELL
+p	java:S106*"9Replace this use of System.out or System.err by a logger.(†¾µúÿÿÿÿ8Ê»ØÉ¿0H£RMAJORZ
+CODE_SMELL
+}
+java:S1128"ERemove this unused import 'com.cybage.config.ConfigurationDeptClass'.(›ÕÌûÿÿÿÿ8‘şŠÎ¿0HºRMINORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(ÅèÕ¾8Ñé¿É¿0H~RMAJORZ
+CODE_SMELL
+j	java:S106/"9Replace this use of System.out or System.err by a logger.(çìöM8ÓÓÿÉ¿0HõRMAJORZ
+CODE_SMELL

@@ -1,0 +1,21 @@
+package com.cybage.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MathOperationsTest {
+
+	@Test
+	public void testAdd() {
+		MathOperations mOperations = new MathOperations();
+		assertEquals(30, mOperations.add(10, 20));
+	}
+
+	@Test
+	public void testSub() {
+//		MathOperations mOperations = new MathOperations();
+		
+	}
+
+}

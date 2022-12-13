@@ -1,0 +1,7 @@
+[main] WARN   com.cybage.log4j.Log4jDemo 13/10/22   - warning msg
+ [main] FATAL  com.cybage.log4j.Log4jDemo 13/10/22   - Fatal
+ [main] ERROR  com.cybage.log4j.Log4jDemo 13/10/22   - error
+ [main] WARN   com.cybage.log4j.Log4jDemo 13/10/22   - warning msg
+ [main] FATAL  com.cybage.log4j.Log4jDemo 13/10/22   - Fatal
+ [main] ERROR  com.cybage.log4j.Log4jDemo 13/10/22   - error
+ 

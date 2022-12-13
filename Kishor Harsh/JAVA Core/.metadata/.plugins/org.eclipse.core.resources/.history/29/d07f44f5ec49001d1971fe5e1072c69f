@@ -1,0 +1,23 @@
+package com.cybage.jdbc;
+
+import java.sql.Connection;
+
+//import com.mysql.cj.jdbc.CallableStatement;
+import java.sql.CallableStatement;
+
+public class CallableDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Connection connection=JDBCUtility.getConnection();
+				
+		try( cStatement = connection.prepareCall("{call GetName(?,?)}"))
+		{	
+				cStatement.setInt(1, 12);
+				String name=cStatement.registerOutPararmeter(2, Types.VARCHAR);
+		}
+
+	}
+
+}

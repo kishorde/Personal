@@ -1,0 +1,6 @@
+package com.cybage.service;
+
+@Service
+public class OrderService {
+
+}

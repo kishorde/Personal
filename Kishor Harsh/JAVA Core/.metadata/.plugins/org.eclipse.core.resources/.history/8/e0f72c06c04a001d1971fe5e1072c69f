@@ -1,0 +1,51 @@
+log4j.rootLogger=WARN, cAppender, fAppender, htmlLayoutDemo, dAppender
+
+# 	in rootlogger we have to set this level as per need
+# 	We have different levels like DEBUG,WARN,INFO,FATAL,ERORR   ,OFF,ALL
+
+
+#	for simple layout
+#log4j.appender.cAppender=org.apache.log4j.ConsoleAppender
+#log4j.appender.cAppender.layout=org.apache.log4j.SimpleLayout
+
+
+#	for PatternLayout
+#log4j.appender.cAppender=org.apache.log4j.ConsoleAppender
+#log4j.appender.cAppender.layout=org.apache.log4j.PatternLayout
+#log4j.appender.cAppender.layout.ConversionPattern=[%t] %-5p  %c %d{dd/MM/yy}  %x - %m%n 
+
+#  for FileAppender
+log4j.appender.fAppender=org.apache.log4j.FileAppender 
+
+#           For saving logs in demoApplication.log
+log4j.appender.fAppender.File=demoApplication.log
+log4j.appender.fAppender.layout=org.apache.log4j.PatternLayout
+log4j.appender.fAppender.layout.ConversionPattern=[%t] %-5p  %c %d{dd/MM/yy}  %x - %m%n 
+
+
+
+log4j.appender.cAppender=org.apache.log4j.ConsoleAppender
+
+
+
+#           For saving logs in demoApplication.log
+#log4j.appender.fAppender.File=demoApplication.log
+log4j.appender.cAppender.layout=org.apache.log4j.PatternLayout
+log4j.appender.cAppender.layout.ConversionPattern=[%t] %-5p  %c %d{dd/MM/yy}  %x - %m%n 
+
+
+
+
+#Html layout
+
+log4j.appender.htmlLayoutDemo = org.apache.log4j.FileAppender
+log4j.appender.htmlLayoutDemo.File=log.html
+log4j.appender.htmlLayoutDemo.layout=org.apache.log4j.HTMLLayout
+
+
+#DailyRollingFileAppender
+log4j.appender.dAppender=org.apache,log4j.DailyAppender
+log4j.appender.dAppender
+log4j.appender.dAppender
+log4j.appender.dAppender
+log4j.appender.dAppender

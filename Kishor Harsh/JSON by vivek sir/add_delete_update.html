@@ -1,0 +1,101 @@
+<!-- https://developers.google.com/speed/libraries -->
+<!-- Link of that script (jQuery 3.x snippet:) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.getJSON('http://localhost:3000/Employee',function(data){
+                var mydata='';
+                $.each(data,function(key,value){
+
+                
+                mydata+='<tr>';
+                mydata+='<td>'+value.id+'</td>';
+                mydata+='<td>'+value.Name+'</td>';
+                mydata+='<td>'+value.City+'</td>';
+                mydata+='<td>'+value.Mobno+'</td>';
+                mydata+='</tr>';
+            });
+            $('#table1').append(mydata);
+        });
+    });
+    function myData()
+        {
+            
+            let id=$('#id').val(),
+            Name = $('#Name').val(),
+            City =$('#City').val(),
+            Mobno =$('#Mobno').val();
+
+            $.post('http://localhost:3000/Employee', {
+                id:id,
+                Name:Name,
+                City:City,
+                Mobno:Mobno
+                
+            },function(response){
+                alert("Added!")
+            });
+        }
+        
+        function updateData()
+        {
+            
+        }
+        
+        function deleteData()
+        {
+            
+        }
+    </script>
+    
+
+       
+</head>
+<body>
+    <table id="table1">
+        <tr>
+        <th> Employee Id</th>
+        <th> Employee Name</th>
+        <th> City</th>
+        <th> Mobile no.</th>
+        </tr>
+    </table>
+    <form action="">
+        <h1> Add Member</h1>
+        <input type="number" placeholder="Enter Id"  id="id">
+        <input type="text"  placeholder="Enter Name" id="Name">
+        <input type="text" placeholder="Enter City" id="City">
+        <input type="number" placeholder="Enter Mobile no." id="Mobno">
+        <input type="button" onclick="myData()" value="submit" id="submit">
+    </form>
+
+
+    <form action="">
+        <h1> Update Member</h1>
+        <input type="number" placeholder="Enter Id"  id="id">
+        <input type="number" placeholder="Update City"   id="City">
+        <input type="text"  placeholder="Update Mobile No" id="Mobno">
+
+        <input type="button" onclick="updateData()" value="submit" id="submit">
+
+    </form>
+    
+    <form action="">
+        <h1> Delete Member</h1>
+        <input type="number" placeholder="Enter Id"  id="id">
+
+        <input type="button" onclick="deleteData()" value="submit" id="submit">
+        
+    </form>
+    
+</body>
+</html>

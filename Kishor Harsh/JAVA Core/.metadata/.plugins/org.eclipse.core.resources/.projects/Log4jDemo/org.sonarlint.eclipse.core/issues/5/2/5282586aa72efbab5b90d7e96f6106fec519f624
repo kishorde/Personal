@@ -1,0 +1,153 @@
+
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿH…RMAJORZBUG
+V	Web:S1827"+Remove this deprecated "bgcolor" attribute.(×Ï¥œH†RMAJORZ
+CODE_SMELL
+S	Web:S1827"(Remove this deprecated "size" attribute.(İÃÒH‡RMAJORZ
+CODE_SMELL
+V	Web:S1827"+Remove this deprecated "noshade" attribute.(İÃÒHˆRMAJORZ
+CODE_SMELL
+\Web:TableWithoutCaptionCheck" Add a description to this table.(ŠˆïŒùÿÿÿÿH‰RMINORZBUG
+_	Web:S1827"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿHŠRMAJORZ
+CODE_SMELL
+_	Web:S1827"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿH‹RMAJORZ
+CODE_SMELL
+_	Web:S1827"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿHŒRMAJORZ
+CODE_SMELL
+Y	Web:S1827")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿHRMAJORZ
+CODE_SMELL
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(óÑ«ÄüÿÿÿÿHRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check$"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿHRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check,"&Remove this deprecated "font" element.(âöÉêøÿÿÿÿHRMAJORZBUG
+i	Web:S52541"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿH‘RMAJORZBUG
+V	Web:S1827;"+Remove this deprecated "bgcolor" attribute.(×Ï¥œH’RMAJORZ
+CODE_SMELL
+S	Web:S1827<"(Remove this deprecated "size" attribute.(İÃÒH“RMAJORZ
+CODE_SMELL
+V	Web:S1827<"+Remove this deprecated "noshade" attribute.(İÃÒH”RMAJORZ
+CODE_SMELL
+\Web:TableWithoutCaptionCheck?" Add a description to this table.(ŠˆïŒùÿÿÿÿH•RMINORZBUG
+_	Web:S1827?"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿH–RMAJORZ
+CODE_SMELL
+_	Web:S1827?"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿH—RMAJORZ
+CODE_SMELL
+_	Web:S1827?"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿH˜RMAJORZ
+CODE_SMELL
+Y	Web:S1827?")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿH™RMAJORZ
+CODE_SMELL
+eWeb:UnsupportedTagsInHtml5CheckK"&Remove this deprecated "font" element.(óÑ«ÄüÿÿÿÿHšRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckS"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿH›RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check["&Remove this deprecated "font" element.(âöÉêøÿÿÿÿHœRMAJORZBUG
+i	Web:S5254`"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHRMAJORZBUG
+V	Web:S1827j"+Remove this deprecated "bgcolor" attribute.(×Ï¥œHRMAJORZ
+CODE_SMELL
+S	Web:S1827k"(Remove this deprecated "size" attribute.(İÃÒHŸRMAJORZ
+CODE_SMELL
+V	Web:S1827k"+Remove this deprecated "noshade" attribute.(İÃÒH RMAJORZ
+CODE_SMELL
+\Web:TableWithoutCaptionCheckn" Add a description to this table.(ŠˆïŒùÿÿÿÿH¡RMINORZBUG
+_	Web:S1827n"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿH¢RMAJORZ
+CODE_SMELL
+_	Web:S1827n"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿH£RMAJORZ
+CODE_SMELL
+_	Web:S1827n"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿH¤RMAJORZ
+CODE_SMELL
+Y	Web:S1827n")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿH¥RMAJORZ
+CODE_SMELL
+eWeb:UnsupportedTagsInHtml5Checkz"&Remove this deprecated "font" element.(óÑ«ÄüÿÿÿÿH¦RMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Check‚"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿH§RMAJORZBUG
+fWeb:UnsupportedTagsInHtml5CheckŠ"&Remove this deprecated "font" element.(âöÉêøÿÿÿÿH¨RMAJORZBUG
+j	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿH©RMAJORZBUG
+W	Web:S1827™"+Remove this deprecated "bgcolor" attribute.(×Ï¥œHªRMAJORZ
+CODE_SMELL
+T	Web:S1827š"(Remove this deprecated "size" attribute.(İÃÒH«RMAJORZ
+CODE_SMELL
+W	Web:S1827š"+Remove this deprecated "noshade" attribute.(İÃÒH¬RMAJORZ
+CODE_SMELL
+]Web:TableWithoutCaptionCheck" Add a description to this table.(ŠˆïŒùÿÿÿÿH­RMINORZBUG
+`	Web:S1827"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿH®RMAJORZ
+CODE_SMELL
+`	Web:S1827"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿH¯RMAJORZ
+CODE_SMELL
+`	Web:S1827"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿH°RMAJORZ
+CODE_SMELL
+Z	Web:S1827")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿH±RMAJORZ
+CODE_SMELL
+fWeb:UnsupportedTagsInHtml5Check©"&Remove this deprecated "font" element.(óÑ«ÄüÿÿÿÿH²RMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Check±"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿH³RMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Check¹"&Remove this deprecated "font" element.(âöÉêøÿÿÿÿH´RMAJORZBUG
+j	Web:S5254¾"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHµRMAJORZBUG
+W	Web:S1827È"+Remove this deprecated "bgcolor" attribute.(×Ï¥œH¶RMAJORZ
+CODE_SMELL
+T	Web:S1827É"(Remove this deprecated "size" attribute.(İÃÒH·RMAJORZ
+CODE_SMELL
+W	Web:S1827É"+Remove this deprecated "noshade" attribute.(İÃÒH¸RMAJORZ
+CODE_SMELL
+]Web:TableWithoutCaptionCheckÌ" Add a description to this table.(ŠˆïŒùÿÿÿÿH¹RMINORZBUG
+`	Web:S1827Ì"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿHºRMAJORZ
+CODE_SMELL
+`	Web:S1827Ì"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿH»RMAJORZ
+CODE_SMELL
+`	Web:S1827Ì"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿH¼RMAJORZ
+CODE_SMELL
+Z	Web:S1827Ì")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿH½RMAJORZ
+CODE_SMELL
+fWeb:UnsupportedTagsInHtml5CheckØ"&Remove this deprecated "font" element.(óÑ«ÄüÿÿÿÿH¾RMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Checkà"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿH¿RMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Checkè"&Remove this deprecated "font" element.(âöÉêøÿÿÿÿHÀRMAJORZBUG
+j	Web:S5254í"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHÁRMAJORZBUG
+W	Web:S1827÷"+Remove this deprecated "bgcolor" attribute.(×Ï¥œHÂRMAJORZ
+CODE_SMELL
+T	Web:S1827ø"(Remove this deprecated "size" attribute.(İÃÒHÃRMAJORZ
+CODE_SMELL
+W	Web:S1827ø"+Remove this deprecated "noshade" attribute.(İÃÒHÄRMAJORZ
+CODE_SMELL
+]Web:TableWithoutCaptionCheckû" Add a description to this table.(ŠˆïŒùÿÿÿÿHÅRMINORZBUG
+`	Web:S1827û"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿHÆRMAJORZ
+CODE_SMELL
+`	Web:S1827û"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿHÇRMAJORZ
+CODE_SMELL
+`	Web:S1827û"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿHÈRMAJORZ
+CODE_SMELL
+Z	Web:S1827û")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿHÉRMAJORZ
+CODE_SMELL
+fWeb:UnsupportedTagsInHtml5Check‡"&Remove this deprecated "font" element.(óÑ«ÄüÿÿÿÿHÊRMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿHËRMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Check—"&Remove this deprecated "font" element.(âöÉêøÿÿÿÿHÌRMAJORZBUG
+j	Web:S5254œ"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHÍRMAJORZBUG
+W	Web:S1827¦"+Remove this deprecated "bgcolor" attribute.(×Ï¥œHÎRMAJORZ
+CODE_SMELL
+T	Web:S1827§"(Remove this deprecated "size" attribute.(İÃÒHÏRMAJORZ
+CODE_SMELL
+W	Web:S1827§"+Remove this deprecated "noshade" attribute.(İÃÒHĞRMAJORZ
+CODE_SMELL
+]Web:TableWithoutCaptionCheckª" Add a description to this table.(ŠˆïŒùÿÿÿÿHÑRMINORZBUG
+`	Web:S1827ª"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿHÒRMAJORZ
+CODE_SMELL
+`	Web:S1827ª"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿHÓRMAJORZ
+CODE_SMELL
+`	Web:S1827ª"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿHÔRMAJORZ
+CODE_SMELL
+Z	Web:S1827ª")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿHÕRMAJORZ
+CODE_SMELL
+fWeb:UnsupportedTagsInHtml5Check¶"&Remove this deprecated "font" element.(óÑ«ÄüÿÿÿÿHÖRMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Check¾"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿH×RMAJORZBUG
+fWeb:UnsupportedTagsInHtml5CheckÆ"&Remove this deprecated "font" element.(âöÉêøÿÿÿÿHØRMAJORZBUG
+j	Web:S5254Ë"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHÙRMAJORZBUG
+W	Web:S1827Õ"+Remove this deprecated "bgcolor" attribute.(×Ï¥œHÚRMAJORZ
+CODE_SMELL
+T	Web:S1827Ö"(Remove this deprecated "size" attribute.(İÃÒHÛRMAJORZ
+CODE_SMELL
+W	Web:S1827Ö"+Remove this deprecated "noshade" attribute.(İÃÒHÜRMAJORZ
+CODE_SMELL
+]Web:TableWithoutCaptionCheckÙ" Add a description to this table.(ŠˆïŒùÿÿÿÿHİRMINORZBUG
+`	Web:S1827Ù"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿHŞRMAJORZ
+CODE_SMELL
+`	Web:S1827Ù"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿHßRMAJORZ
+CODE_SMELL
+`	Web:S1827Ù"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿHàRMAJORZ
+CODE_SMELL
+Z	Web:S1827Ù")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿHáRMAJORZ
+CODE_SMELL
+fWeb:UnsupportedTagsInHtml5Checkå"&Remove this deprecated "font" element.(óÑ«ÄüÿÿÿÿHâRMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Checkí"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿHãRMAJORZBUG
+fWeb:UnsupportedTagsInHtml5Checkõ"&Remove this deprecated "font" element.(âöÉêøÿÿÿÿHäRMAJORZBUG

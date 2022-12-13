@@ -1,0 +1,19 @@
+package com.cyabage.FunamentalsOfJava1;
+
+import java.util.Scanner;
+
+//Write a Java program that reads an integer between 0 and 1000 and adds all the digits in the integer. 
+//Test Data
+//Input an integer between 0 and 1000: 565
+//Expected Output :
+//The sum of all digits in 565 is 16(SumOfDigit)
+
+public class Assignment3 {
+	
+	public static void main(String[] args)
+	{
+		int input;
+		System.out.println("Enter number");
+		Scanner sc=new Scanner(int);
+	}
+}

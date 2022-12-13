@@ -1,0 +1,16 @@
+
+_
+java:S1128",Remove this unused import 'lombok.ToString'.(¹ÂÄÓ8È®ŠÄ0HÏRMINORZ
+CODE_SMELL
+]
+java:S1128"*Remove this unused import 'lombok.Setter'.(ó¸çµ8È®ŠÄ0HÍRMINORZ
+CODE_SMELL
+n
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8È®ŠÄ0HÇRMINORZ
+CODE_SMELL
+]
+java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙ8È®ŠÄ0HÉRMINORZ
+CODE_SMELL
+h
+java:S1128"5Remove this unused import 'lombok.NoArgsConstructor'.(¸¨›8È®ŠÄ0HËRMINORZ
+CODE_SMELL

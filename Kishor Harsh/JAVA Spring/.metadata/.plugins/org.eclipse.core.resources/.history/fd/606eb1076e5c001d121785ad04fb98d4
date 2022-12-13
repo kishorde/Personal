@@ -1,0 +1,20 @@
+package com.cybage.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.cybage.model.Book;
+
+public class BookService {
+
+	List<Book> bookList=new ArrayList<>();
+	
+	public BookService()
+	{
+		bookList.add(new Book(101,"Rich Dad Poor Dad","author","publisher"));
+		bookList.add(new Book(102,"Rich Dad Poor Dad","author","publisher"));
+		bookList.add(new Book(103,"Rich Dad Poor Dad","author","publisher"));
+		bookList.add(new Book(104,"Rich Dad Poor Dad","author","publisher"));
+		
+	}
+}

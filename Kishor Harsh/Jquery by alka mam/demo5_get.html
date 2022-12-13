@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#mybtn').click(function(){
+                $.getJSON('https://reqres.in/api/users/2',function(data){
+                    console.log("data"+JSON.stringify(data));
+                    user=JSON.stringify(data);
+                    console.log("id :" + data.id)
+                    $('#outputdiv').html((user.data.id));
+                    
+                })
+            })
+        })
+    </script>
+
+</head>
+<body>
+    <button id="mybtn">click</button>
+    <div id="outputdiv"></div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+$bg:gold;
+$c: black;
+$h:100%;
+$w:100%;
+$b:4px solid;
+$t:uppercase;
+$fs:30px;
+
+@mixin my_styling
+{
+    background-color: $bg;
+    color: $c;
+    height: $h;
+    width: $w;
+    border: $b;
+    text-transform: $t;
+    font-size: $fs;
+}
+
+div{
+    @include my_styling();
+    background-color: aqua;
+    color: red;
+}
+
+h1{
+    text-align: center;
+    @include my_styling();
+}
+

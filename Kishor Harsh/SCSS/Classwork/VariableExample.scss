@@ -1,0 +1,9 @@
+$bgc: yellow;
+$fs: italic;
+$b: 2px solid gold;
+
+h1{
+    background-color: $bgc;
+    border: $b;
+    font-style: $fs;
+}

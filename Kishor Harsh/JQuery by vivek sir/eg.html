@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+        #Slide {
+
+            margin-left: 500px;
+
+        }
+
+        #box1 {
+
+            background-color: black;
+
+            height: 80px;
+
+            width: 50px;
+
+            float: right;
+
+            position: relative;
+
+            display: inline-block;
+
+        }
+
+        #box2 {
+
+            background-color: red;
+
+            height: 80px;
+
+            width: 50px;
+
+            float: left;
+
+            position: relative;
+
+            display: inline-block;
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+
+            $("#Slide").dblclick(function () {
+
+                $("#box1").animate({
+
+                    right: '1100px',
+
+                    opacity: '0.2',
+
+                    height: '200px',
+
+                    width: '150px',
+
+                }, 5000, function () {
+
+                    $("#box1").css("background-color", "red")
+
+                    $("#box1").css("opacity", "1")
+
+                });
+
+            });
+
+
+            $("#Slide").dblclick(function () {
+
+                $("#box2").animate({
+
+                    left: '1100px',
+
+                    opacity: '0.1',
+
+                    height: '200px',
+
+                    width: '150px',
+
+                }, 5000, function () {
+
+                    $("#box2").css("background-color", "black")
+
+                    $("#box2").css("opacity", "1")
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+    <button id="Slide">Slide Box</button>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div id="box1">
+
+    </div>
+
+    <div id="box2">
+
+    </div><br>
+
+</body>
+
+</html>

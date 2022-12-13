@@ -1,0 +1,25 @@
+
+p	java:S106f"9Replace this use of System.out or System.err by a logger.(øæÈ†ûÿÿÿÿ8ìù›†½0HãRMAJORZ
+CODE_SMELL
+j	java:S1061"9Replace this use of System.out or System.err by a logger.(ì›—y8ìù›†½0HäRMAJORZ
+CODE_SMELL
+T
+java:S1700"Rename field "productDAOImp"(˜Ü–üÿÿÿÿ8“³ÿ‡½0H¶RMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(ğøŞ˜8‚Å†½0HêRMAJORZ
+CODE_SMELL
+k	java:S106h"9Replace this use of System.out or System.err by a logger.(»‚†ë8÷×Â…½0H£RMAJORZ
+CODE_SMELL
+‚
+java:S2095&"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Â§«ıÿÿÿÿ8÷×Â…½0H’RBLOCKERZBUG
+k	java:S106["9Replace this use of System.out or System.err by a logger.(˜àÕİ8î¥å…½0HÖRMAJORZ
+CODE_SMELL
+_
+java:S1481]"'Remove this unused "sc" local variable.(ğÛ²¸øÿÿÿÿ8î¥å…½0HÔRMINORZ
+CODE_SMELL
+}
+java:S2095a"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÖÂÑ¡8î¥å…½0HÊRBLOCKERZBUG
+p	java:S106/"9Replace this use of System.out or System.err by a logger.(ğ”Úÿÿÿÿÿ8÷×Â…½0H¢RMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ÉÈ£”ıÿÿÿÿ8´ò¸§½0HÓRMAJORZ
+CODE_SMELL

@@ -1,0 +1,32 @@
+
+d	java:S1064"9Replace this use of System.out or System.err by a logger.(­è°ýHþRMAJORZ
+CODE_SMELL
+l	java:S1255"<This block of commented-out lines of code should be removed.(—ÛóäûÿÿÿÿHÿRMAJORZ
+CODE_SMELL
+T
+java:S1659)"#Declare "marks" on a separate line.(îš°üÿÿÿÿHùRMINORZ
+CODE_SMELL
+m
+java:S1128
+"<Remove this unused import 'com.mysql.cj.protocol.Resultset'.(«‹’ûÿÿÿÿHƒRMINORZ
+CODE_SMELL
+i	java:S106""9Replace this use of System.out or System.err by a logger.(ÀÉ¼éþÿÿÿÿHýRMAJORZ
+CODE_SMELL
+b
+java:S1135:"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿH€RINFOZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(‰¹–ÔøÿÿÿÿHôRMAJORZ
+CODE_SMELL
+s
+java:S2095&"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°ÁµþÿÿÿÿHòRBLOCKERZBUG
+n
+java:S2095!"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÜÉHóRBLOCKERZBUG
+b
+java:S1135"2Complete the task associated to this TODO comment.(àøö×ûÿÿÿÿHøRINFOZ
+CODE_SMELL
+Q
+java:S1659*"%Declare "address" on a separate line.(®¿îæHûRMINORZ
+CODE_SMELL
+^
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸHRMINORZ
+CODE_SMELL

@@ -1,0 +1,12 @@
+package com.cybage.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cybage.service.OrderService;
+
+@RestController
+public class OrderController {
+	
+	private OrderService orderService;
+
+}

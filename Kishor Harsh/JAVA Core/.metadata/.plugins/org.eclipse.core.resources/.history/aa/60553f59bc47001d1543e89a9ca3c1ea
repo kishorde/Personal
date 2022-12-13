@@ -1,0 +1,44 @@
+package com.cyabage.FunamentalsOfJava1;
+
+//class Date.  Overload constructor to initialize attributes.
+//Create Date objects using non-parameterized & parameterized constructors both.
+//Print values of day, month & year for every object.(Date)
+
+class Date
+{
+	int day;
+	String month;
+	int year;
+	
+	Date()
+	{
+		System.out.println("Empty Date");
+	}
+	Date(int day,String month,int year)
+	{
+		this.day=day;
+		this.month=month;
+		this.year=year;
+	}
+	
+	@Override
+	public String toString() {
+		return "Date [day=" + day + ", month=" + month + ", year=" + year + "]";
+	}
+	
+	
+}
+public class Assignment2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Date date=new Date();
+		
+		Date date1=new Date(03,"August",2000);
+		
+		System.out.println(date1.toString());
+		
+	}
+
+}

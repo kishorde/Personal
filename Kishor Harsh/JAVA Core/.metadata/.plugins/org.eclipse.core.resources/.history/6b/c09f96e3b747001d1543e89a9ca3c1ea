@@ -1,0 +1,28 @@
+package com.cybage.introductionToJava;
+
+class Account
+{
+	String name;
+	int accNo;
+	
+	Account()
+	{
+		System.out.println("Welcome");
+	}
+	
+	Account(String name,int accNo)
+	{
+		super();
+		this.name=name;
+		this.accNo=accNo;
+	}
+}
+public class Assignment4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account acc1=new Account("Kishor",102456);
+		acc1.accNo;
+	}
+
+}

@@ -1,0 +1,7 @@
+log4j.rootLogger=INFO, cAppender
+
+// Warn
+
+
+log4j.appender.cAppender=org.apache.log4j.ConsoleAppender
+log4j.appender.cAppender.layout=org.apache.log4j.SimpleLayout

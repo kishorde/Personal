@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function()
+            {
+                $("#box").animate({
+                
+                    // left:"30px", 
+                    width:"150px",
+                    height:"200px",
+                    opacity:0.2
+                    
+                    
+                },2000,function()
+                {
+                    $("#box").css("background-color","black")
+                });
+            }
+            );
+            
+            $("#btn").click(function()
+            {
+                $("#box1").animate({
+                    // left:"30px",
+                    width:"150px",
+                    height:"200px",
+                    opacity:0.1
+                    
+                },2000,function()
+                {
+                    $("#box1").css("background-color","red")
+                }
+                );
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="btn">click here</button><br><br>
+    <div id="box" style="background-color: red;height: 80px;width: 50px;position: absolute;"><br><br><br><br><br>
+    <div id="box1" style="background-color: black;height: 80px;width: 50px;float: right;">
+    </div>
+</body>
+</html>

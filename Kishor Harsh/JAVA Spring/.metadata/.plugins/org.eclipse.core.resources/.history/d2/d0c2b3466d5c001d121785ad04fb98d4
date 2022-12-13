@@ -1,0 +1,8 @@
+package com.cybage.service;
+
+import java.util.ArrayList;
+
+public class BookService {
+
+	List<String> BookList=new ArrayList<E>()
+}

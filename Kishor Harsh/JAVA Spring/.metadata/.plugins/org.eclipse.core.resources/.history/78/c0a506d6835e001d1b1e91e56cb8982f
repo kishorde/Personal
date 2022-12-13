@@ -1,0 +1,25 @@
+package com.cybage.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.cybage.model.Order;
+
+@Service
+public class OrderService {
+	
+	List<Order> orderList = new ArrayList<Order>();
+	
+	public void addOrder(Order order)
+	{
+		orderList.add(order);
+	}
+
+	public com.cybage.controller.List<com.c> getAllOrders() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

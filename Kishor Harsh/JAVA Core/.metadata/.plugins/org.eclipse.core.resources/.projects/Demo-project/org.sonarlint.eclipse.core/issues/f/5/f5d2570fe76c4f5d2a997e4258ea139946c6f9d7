@@ -1,0 +1,61 @@
+
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(›çÓ¥H‹RMINORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ğÛûHŒRMINORZ
+CODE_SMELL
+‰
+java:S3008"XRename this field "no_of_objects" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ä€ˆùÿÿÿÿHRMINORZ
+CODE_SMELL
+I
+java:S1118"Hide this public constructor.(¯ò¢×HRMAJORZ
+CODE_SMELL
+b
+java:S1854"6Remove this useless assignment to local variable "fo".(»¶½ùHRMAJORZ
+CODE_SMELL
+i
+java:S1854"8Remove this useless assignment to local variable "four".(ï½Ï®øÿÿÿÿHRMAJORZ
+CODE_SMELL
+e
+java:S1854"9Remove this useless assignment to local variable "three".(ğâõÜH‘RMAJORZ
+CODE_SMELL
+c
+java:S1854"7Remove this useless assignment to local variable "two".(‰âÅ¡H’RMAJORZ
+CODE_SMELL
+c
+java:S1854"7Remove this useless assignment to local variable "one".(ß÷¤ŒH“RMAJORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH”RINFOZ
+CODE_SMELL
+N
+java:S2440""Remove this instantiation of "eg".(ß÷¤ŒH•RMAJORZ
+CODE_SMELL
+T
+java:S1481"(Remove this unused "one" local variable.(ß÷¤ŒH–RMINORZ
+CODE_SMELL
+N
+java:S2440""Remove this instantiation of "eg".(‰âÅ¡H˜RMAJORZ
+CODE_SMELL
+T
+java:S1481"(Remove this unused "two" local variable.(‰âÅ¡H™RMINORZ
+CODE_SMELL
+N
+java:S2440""Remove this instantiation of "eg".(ğâõÜH›RMAJORZ
+CODE_SMELL
+V
+java:S1481"*Remove this unused "three" local variable.(ğâõÜHœRMINORZ
+CODE_SMELL
+S
+java:S2440""Remove this instantiation of "eg".(ï½Ï®øÿÿÿÿHRMAJORZ
+CODE_SMELL
+Z
+java:S1481")Remove this unused "four" local variable.(ï½Ï®øÿÿÿÿHŸRMINORZ
+CODE_SMELL
+N
+java:S2440""Remove this instantiation of "eg".(»¶½ùH¡RMAJORZ
+CODE_SMELL
+S
+java:S1481"'Remove this unused "fo" local variable.(»¶½ùH¢RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ç¾ñğıÿÿÿÿH¤RMAJORZ
+CODE_SMELL

@@ -1,0 +1,80 @@
+@import '_variable';
+
+
+
+@mixin body_mix {
+        background-color: $bbg;
+    }
+
+@mixin head_mix{
+        column-count: $hcc;
+        column-rule: $hcr ;
+        border: $hb;
+    }
+@mixin logo{
+        width: $lw;
+        height: $lh;
+        
+    }
+@mixin slogan{
+        font-size: $sfs;
+        padding-top: $spt;
+        font-family: $sff;
+        color: $sc;
+    }
+@mixin login{
+        float: $lf;
+        font-size: $lfs;
+    }
+    
+    
+@mixin imagee{
+        width: $iw;
+        height: $ih;
+        border: $ib;
+        animation-name: $ian;
+        background-image : $ibi;
+        background-repeat: $ibr;
+        background-size: $ibs;
+        animation-duration: $iad;
+        animation-delay: $iade;
+        animation-iteration-count: $iaic ;
+   
+    
+    @keyframes img_ani
+    {
+        0%{background-image : url("img1.jfif");}
+        25%{background-image : url("img2.jfif");}
+        50%{background-image : url("img3.jfif");}
+        75%{background-image : url("img4.jfif");}
+        100%{background-image : url("img5.jfif");}
+    }
+}
+    
+@mixin scroll{
+    
+    border: $sb;    
+    width: $sw;
+    height: $sh;
+    float: $sf;
+    overflow: $so;
+}
+@mixin foot{
+    width: $fw;
+    height: $fh;
+    border: $fb;
+    column-count: $fcc;
+    column-rule: $fcr;
+    background-color: $fbc;
+    color: $fc;
+    
+}
+@mixin foot_a{
+    color: $fdac;
+}
+    
+@mixin hsix{
+    text-align: $ht;
+}
+    
+

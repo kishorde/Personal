@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+this is hello file from master
+=======
+This is hello file
+>>>>>>> test
+

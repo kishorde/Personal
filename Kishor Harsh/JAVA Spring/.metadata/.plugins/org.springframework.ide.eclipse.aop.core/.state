@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="BMS"/>
+<aop-project name="PMS-SPRING-DATA-JPA"/>
+<aop-project name="API-CALL"/>
+<aop-project name="SecurityDemo"/>
+<aop-project name="CMS-REST-API"/>
+</aop-reference-model>

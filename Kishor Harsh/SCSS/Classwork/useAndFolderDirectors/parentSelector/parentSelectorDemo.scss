@@ -1,0 +1,27 @@
+$m:200px;
+$b:4px solid black;
+$a:center;
+
+
+
+.main_header{
+    background-color: aquamarine;
+    border: $b;
+    text-align: $a;
+    h1{
+        background-color: crimson;
+        &:hover{
+            background-color: azure;
+            color: red;
+    }
+}
+}
+
+h1:hover{
+    background-color: azure;
+    color: red;
+}
+// .main_header h1{
+//     background-color: crimson;
+// }
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;EmployeeDemo.java&apos; to &apos;JDBCEmployee/src/com.cybage.jdbcEmpPractice&apos;&#x0D;&#x0A;- Original project: &apos;JDBCDemo&apos;&#x0D;&#x0A;- Destination element: &apos;JDBCEmployee/src/com.cybage.jdbcEmpPractice&apos;&#x0D;&#x0A;- Original element: &apos;com.cybage.jdbc.EmployeeDemo.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=JDBCEmployee/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cybage.jdbcEmpPractice" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cybage.jdbc{EmployeeDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1665511148320" units="1" version="1.0"/>
+</session>

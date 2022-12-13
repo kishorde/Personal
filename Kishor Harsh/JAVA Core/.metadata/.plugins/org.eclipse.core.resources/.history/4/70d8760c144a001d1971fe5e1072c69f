@@ -1,0 +1,42 @@
+package com.cybage.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class MathOperationsTest {
+
+	static MathOperations mOperations = null; //
+
+	@BeforeClass
+	public static void beforeClassMethod() {
+		mOperations = new MathOperations();
+		System.out.println("before class method");
+	}
+
+	@Test
+	public void testAdd() {
+//		MathOperations mOperations = new MathOperations();
+		assertEquals(30, mOperations.add(10, 20));
+	}
+
+	@Test
+	public void testAddForNegative() {
+//		MathOperations mOperations = new MathOperations();
+		assertEquals(-30, mOperations.add(-10, -20));
+	}
+
+	@Test
+	public void testSub() {
+//		MathOperations mOperations = new MathOperations();
+		assertEquals(10, mOperations.sub(30, 20));
+	}
+
+	@Test
+	public void testCheck() {
+//		MathOperations mOperations = new MathOperations();
+		assertTrue(mOperations.check("Kish"));
+	}
+
+}

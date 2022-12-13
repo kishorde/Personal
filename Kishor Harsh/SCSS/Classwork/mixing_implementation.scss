@@ -1,0 +1,6 @@
+@import '_allMixin';
+
+div{
+    @include div_style;
+
+}

@@ -1,0 +1,32 @@
+<!-- Assignment #2
+Implement the Selector API to color the Para which is 
+inside the div tag by adding a button 
+to the web page named as COLOR -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+
+    
+</head>
+<body>
+
+    <div>
+        <p id="col">This is paragraph</p>
+    </div>
+
+    <button onclick="color()">COLOR</button>
+
+    <script>
+        function color()
+        {
+            var x=document.querySelector("#col")
+            x.style.color="Red";
+        }
+    </script>
+</body>
+</html>

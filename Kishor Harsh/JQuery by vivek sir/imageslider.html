@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+        #image_slider{
+            margin: 50px ;
+            position: relative;
+            height: 200px;
+            height: 150px;
+            padding: 15px;
+            
+        }
+
+        #image_slider div{
+            position: absolute;
+            
+        }
+
+        #onslide{
+            margin: 70px;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function()
+        {
+            $("#onslide").click(function()
+            {
+                $("#img3").fadeOut(2000);
+            })
+            $("#onslide").click(function()
+            {
+                $("#img2").fadeIn(2000);
+            })
+            $("#onslide").click(function()
+            {
+                $("#img1").fadeOut(2000);
+            })
+            $("#onslide").click(function()
+            {
+                $("#img3").fadeIn(2000);
+            })
+            $("#onslide").click(function()
+            {
+                $("#img2").fadeIn(2000);
+            })
+            $("#onslide").click(function()
+            {
+                $("#img1").fadeIn(2000);
+            })
+            
+        })
+    </script>
+</head>
+<body>
+
+    <div id="image_slider">
+        <div id="img1">
+            <img src="img1.jfif" alt="">
+        </div>
+        <div id="img2">
+            <img src="img2.jfif" alt="">
+        </div>
+        <div id="img3">
+            <img src="img3.jfif" alt="">
+        </div>
+    </div>
+
+    <button id="onslide">slide</button>
+    
+</body>
+</html>

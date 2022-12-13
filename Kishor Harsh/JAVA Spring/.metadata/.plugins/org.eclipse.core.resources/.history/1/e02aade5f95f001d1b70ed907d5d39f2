@@ -1,0 +1,6 @@
+package com.cybage.repository;
+
+
+public interface OrderRepository {
+
+}

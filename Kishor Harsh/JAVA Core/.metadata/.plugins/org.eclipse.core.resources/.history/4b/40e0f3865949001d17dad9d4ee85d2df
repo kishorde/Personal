@@ -1,0 +1,39 @@
+package com.cybage.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+//import java.util.Date;
+import java.sql.Date;
+
+public class PreparedStatementDemo {
+
+	public static void main(String[] args) {
+		
+		try
+		{
+			
+			//loaded drivers
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		
+			//established connection
+			Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydbdemo","root","root");
+			System.out.println("Connection is established");
+			
+			
+			PreparedStatement pStatement=connection.prepareStatement("insert into student (name,marks,address,DOB) values (?,?,?,?)");
+			pStatement.setString(1, "Rucha");
+			pStatement.setInt(2, 85);
+			pStatement.setString(3, "Pune");
+			pStatement.setDate(4,new Date (2020,11,10));
+			pStatement.executeUpdate();			
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			
+		}
+
+	}
+
+}

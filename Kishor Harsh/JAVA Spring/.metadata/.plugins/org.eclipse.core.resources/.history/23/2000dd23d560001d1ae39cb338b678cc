@@ -1,0 +1,20 @@
+package com.cybage.model;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+public class Product {
+
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+
+private int productId;
+private String productName;
+private int productPrice;
+
+
+}
