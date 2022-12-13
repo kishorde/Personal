@@ -1,0 +1,52 @@
+show databases;
+use eventmanagementsystem;
+show tables;
+drop table admin;
+desc employee; 
+desc admin;
+desc addevent;
+drop table addevent;
+
+
+
+select * from admin;
+select * from event_category;
+
+
+
+create table event_category (category_id integer auto_increment primary key,category_name varchar(20));
+
+insert into event_category (category_id,category_name) values(6,"Birthday");
+insert into event_category (category_name) values("wedding");
+
+select * from event_category;
+
+drop table event_details;
+
+create table event_details (event_id integer primary key auto_increment,event_organizer_id integer,category_id integer,event_name varchar(20),event_city varchar(20),event_date varchar(20),event_price integer,foreign key (category_id) references event_category(category_id),foreign key (event_organizer_id) references alluser(user_id));
+insert into event_details(event_organizer_id,category_id,event_name,event_city,event_date,event_price) values(11,15,"event1","pune","10/02/2022",200);
+desc event_details;
+select * from event_details;
+select event_id , event_name, event_price ,event_city,event_date,event_category.category_name as category_name,event_category.category_id as categoryId, event_organizer.event_organizer_id as eventOrgnaizerID, event_organizer.event_organizer_name as eventOrganizerName, event_organizer.event_organizer_email as eventOrganizerEmail from event_details join event_category on event_details.category_id= event_category.category_id join event_organizer on event_details.event_organizer_id=event_organizer.event_organizer_id where event_details.event_organizer_id=2;
+select event_id , event_name, event_price ,event_city,event_date,category_id from event_details where event_organizer_id=2;
+
+select event_id , event_name, event_price ,event_city,event_date,event_category.category_name as category_name,event_category.category_id as categoryId, event_organizer.event_organizer_id as eventOrgnaizerID, event_organizer.event_organizer_name as eventOrganizerName, event_organizer.event_organizer_email as eventOrganizerEmail from event_details join event_category on event_details.category_id= event_category.category_id join event_organizer on event_details.event_organizer_id=event_organizer.event_organizer_id where event_id= 1;
+			
+
+select event_id , event_name, event_price ,event_city,event_date,event_category.category_name as category_name,event_category.category_id as categoryId, event_organizer.event_organizer_id as eventOrgnaizerID, event_organizer.event_organizer_name as eventOrganizerName, event_organizer.event_organizer_email as eventOrganizerEmail from event_details join event_category on event_details.category_id= event_category.category_id join event_organizer on event_details.event_organizer_id=event_organizer.event_organizer_id where event_details.event_organizer_id=1;
+	
+    
+drop table alluser;
+create table alluser (user_id integer primary key auto_increment,user_name varchar(20), user_email varchar(20),user_password varchar(20),user_contact_no varchar(10),user_role varchar(10));
+select * from alluser;
+desc alluser;
+
+
+
+create table book_event (booking_id integer primary key auto_increment,event_id integer,user_id integer,event_organizer_id integer,booking_status varchar(20));
+select * from book_event;
+desc book_event;
+drop table book_event;
+
+
+select * from book_event where event_organizer_id=2;

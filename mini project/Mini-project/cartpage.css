@@ -1,0 +1,98 @@
+p {
+    color: red;
+}
+
+.cart_header {
+    background-color: rgb(236, 71, 42);
+    /* border: 0.15rem solid goldenrod; */
+    width: 100%;
+    height: auto;
+}
+
+.cart_details {
+    background-color: papayawhip;
+    height: 600px;
+    width: 66%;
+    margin: 25px 25px 25px 25px;
+    overflow: scroll;
+}
+
+.cart_summary {
+    background-color: papayawhip;
+    height: 600px;
+    width: 33%;
+    border-radius: 10px;
+    margin: 25px 25px 25px 25px;
+}
+
+.cart_placeorder {
+    /* background-color: greenyellow; */
+    background-color: rgb(248, 173, 88);
+    height: 3rem;
+    width: 100%;
+
+}
+
+.btn_plc_odr {
+    background-color: orangered;
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    bottom: 0;
+}
+
+
+.order_details {
+    /* background-image: url("foods_01-o.png"); */
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgb(248, 173, 88);
+    /* height: auto; */
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cart_footer {
+    height: 8rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+
+
+    .order_details {
+        flex-wrap: wrap;
+    }
+
+    .cart_details {
+        width: 100%;
+    }
+
+    .cart_summary {
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+@media screen and(min-width:769px) {
+    .cart_details {
+        width: 66%;
+    }
+
+    .cart_summary {
+        width: 33%;
+
+
+    }
+
+
+
+}

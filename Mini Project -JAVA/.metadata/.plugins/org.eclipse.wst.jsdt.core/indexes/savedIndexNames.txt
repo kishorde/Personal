@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+E:\Mini Project -JAVA\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4119441718.index
+390017661.index
+2531927600.index
+3994031222.index
+3649589193.index
+2413303818.index
+1281221903.index
+366745117.index

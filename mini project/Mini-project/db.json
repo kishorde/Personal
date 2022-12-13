@@ -1,0 +1,358 @@
+{
+  "itemdetails": [
+    {
+      "id": "1",
+      "item_img": "images/pizza1.jpg",
+      "item_name": "Mushroom Pizza",
+      "item_price": "350",
+      "item_category": "Pizza",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "item_img": "images/pizza2.jpg",
+      "item_name": "Paneer Pizza",
+      "item_price": "300",
+      "item_category": "Pizza",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "item_img": "images/pizza3.jpg",
+      "item_name": "Margherita Pizza",
+      "item_price": "400",
+      "item_category": "Pizza",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "item_img": "images/pizza4.jpg",
+      "item_name": "Cheese Pizza",
+      "item_price": "400",
+      "item_category": "Pizza",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "item_img": "images/burger1.jpg",
+      "item_name": "Veggie Burger",
+      "item_price": "250",
+      "item_category": "Burger",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "item_img": "images/burger2.jpg",
+      "item_name": "Chili Burger",
+      "item_price": "350",
+      "item_category": "Burger",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "item_img": "images/burger3.jpg",
+      "item_name": "Cheese Burger",
+      "item_price": "500",
+      "item_category": "Burger",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "item_img": "images/burger4.jpg",
+      "item_name": "HamBurger + Fries",
+      "item_price": "550",
+      "item_category": "Burger",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "item_img": "images/Chaat1.jpg",
+      "item_name": "Steamed Momos",
+      "item_price": "120",
+      "item_category": "Chaat",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "item_img": "images/Chaat2.jpg",
+      "item_name": "Pani Puri",
+      "item_price": "30",
+      "item_category": "Chaat",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "item_img": "images/Chaat3.jpg",
+      "item_name": "Samosa",
+      "item_price": "25",
+      "item_category": "Chaat",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "item_img": "images/Chaat4.jpg",
+      "item_name": "Dahi Puri",
+      "item_price": "40",
+      "item_category": "Chaat",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order": [
+        {
+          "order": "01"
+        }
+      ]
+    }
+  ],
+  "cartdetails": [],
+  "addToFav": [],
+  "users": [
+    {
+      "FirstName": "gewgwegwg",
+      "LastName": "wergwtrg",
+      "Email": "wregrtg@gmail.com",
+      "UserName": "gwergwtg",
+      "Number": "254757",
+      "Password": "last",
+      "Photo": "profilepic2.jfif",
+      "id": 1,
+      "addToFav": []
+    },
+    {
+      "FirstName": "fifth",
+      "LastName": "5",
+      "Email": "kk@gmail.com",
+      "UserName": "gwergwtg",
+      "Number": "254757",
+      "Password": "1232",
+      "Photo": "C:\\fakepath\\like.png",
+      "id": 5
+    },
+    {
+      "Password": "123451",
+      "Photo": "C:\\fakepath\\regisimg3.jpeg",
+      "id": 7
+    },
+    {
+      "Email": "wregrtg",
+      "Number": "254757",
+      "Password": "kishor",
+      "Photo": "C:\\fakepath\\anm3.jpeg",
+      "id": 77
+    },
+    {
+      "Email": "wregrtg",
+      "Number": "254757",
+      "Password": "kkneww",
+      "Photo": "C:\\fakepath\\anm2.jpg",
+      "id": 8
+    },
+    {
+      "Password": "12345",
+      "Photo": "C:\\fakepath\\profilepic2.jfif",
+      "id": 5
+    },
+    {
+      "Password": "999999",
+      "Photo": "C:\\fakepath\\regisimg2.jpeg",
+      "id": 6
+    },
+    {
+      "FirstName": "asa",
+      "LastName": "asas",
+      "Email": "asas",
+      "UserName": "asas",
+      "Password": "asas",
+      "Number": "4444444444",
+      "Photo": "",
+      "id": 78
+    },
+    {
+      "FirstName": "asas",
+      "LastName": "asasa",
+      "Email": "asasa",
+      "UserName": "sasasa",
+      "Password": "assa",
+      "Number": "4545454545",
+      "Photo": "",
+      "id": 79
+    },
+    {
+      "FirstName": "asas",
+      "LastName": "asasassas",
+      "Email": "aaaaaaaaaa",
+      "UserName": "asasa",
+      "Password": "awww",
+      "Number": "4545454555",
+      "Photo": "",
+      "id": 80
+    },
+    {
+      "FirstName": "asas",
+      "LastName": "asa",
+      "Email": "asas",
+      "UserName": "asasa",
+      "Password": "wawawa",
+      "Number": "asasa",
+      "Photo": "",
+      "id": 81
+    },
+    {
+      "FirstName": "asw@gmail.com",
+      "LastName": "idontknow",
+      "Email": "kkl@gm.com",
+      "UserName": "fregre",
+      "Password": "asd",
+      "Number": "9999999999",
+      "Photo": "C:\\fakepath\\ApfLogo2.png",
+      "id": 82
+    },
+    {
+      "FirstName": "kunal",
+      "LastName": "gegergerg",
+      "Email": "kunal@gmail.com",
+      "UserName": "yktyktu@grddh",
+      "Password": "asd",
+      "Number": "8888888888",
+      "Photo": "C:\\fakepath\\table.css",
+      "id": 83
+    },
+    {
+      "FirstName": "uohuoh",
+      "LastName": "uhuohu",
+      "Email": "kajs@h.com",
+      "UserName": "sdgjsghad@jhg",
+      "Password": "ppop",
+      "Number": "7878787878",
+      "Photo": "C:\\fakepath\\logo.png",
+      "id": 84
+    },
+    {
+      "FirstName": "huh",
+      "LastName": "uhuh",
+      "Email": "huh@uh.com",
+      "UserName": "uigiug@kh",
+      "Password": "4545",
+      "Number": "8889998889",
+      "Photo": "",
+      "id": 85
+    },
+    {
+      "FirstName": "kishor",
+      "LastName": "deshmukh",
+      "Email": "kishor@gmail.com",
+      "UserName": "Kishorde",
+      "Password": "123456",
+      "Number": "7875943919",
+      "Photo": "C:\\fakepath\\profile.png",
+      "id": 86
+    },
+    {
+      "FirstName": "niranjan",
+      "LastName": "gundla",
+      "Email": "niranjan@gmail.com",
+      "UserName": "niranjang",
+      "Password": "123456",
+      "Number": "7875943919",
+      "Photo": "",
+      "id": 87
+    },
+    {
+      "FirstName": "kish",
+      "LastName": "fgfgvdxf",
+      "Email": "dd@gm.com",
+      "UserName": "kishorde",
+      "Password": "7899",
+      "Number": "7754554235",
+      "Photo": "",
+      "id": 88
+    },
+    {
+      "FirstName": "kishdfg",
+      "LastName": "dgdfgd",
+      "Email": "dfg@.vgh",
+      "UserName": "ghndfgdf",
+      "Password": "7777",
+      "Number": "7754554235",
+      "Photo": "",
+      "id": 89
+    }
+  ]
+}

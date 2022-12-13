@@ -1,0 +1,150 @@
+@import '_allVariable.scss';
+
+@mixin Background {
+    background-image: url('bgImg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: $ba;
+    background-size: $bs;
+
+    .LoginPage-header{
+        background-image: url('headerImg.png');
+        height: $h;
+        width: $w;
+        top: $t;
+    }
+
+    .LoginPage-header-text{
+    
+        padding-left: $pl;
+        font-size: $fs;
+        font-weight: $fw;
+    }
+
+    .LoginPage-header-img{
+        height: $h2;
+        width: $h2;
+    }
+
+}
+
+@mixin Columns {
+    padding-top: $pt; 
+    width: $w;
+    gap: $g;
+    column-count: $cc;
+    
+    .LoginPage-grid-1{
+        margin: $m;
+        background-color: $bc;
+        height: $h3;
+        width: $w2;
+        border-radius: $br;
+    }
+
+    .LoginPage-grid-1-Content{
+        padding-top: $pl;
+    }
+
+    .LoginPage-grid-1-Content-header{
+        text-align: $ta;
+        font-size: $fs2;
+        color: $c;
+    }
+
+    .LoginPage-grid-1-form-box{
+        box-sizing: $bxs;
+        display: $d;
+        height: $h4;
+        width: $w;
+        border-width: $bw;
+        border-style: $bst;
+        padding: $p;
+        outline: $o;
+        font-size: $p;
+        background-color: $c;
+    }
+
+    .LoginPage-grid-1-form-botton [type="submit"]{
+        background-color: $c;
+        height: $h5;
+        width: $w3;
+        color: $bc;
+    }
+
+    .LoginPage-grid-1-form-botton [type="button"]:hover{
+        background-color: $bc2;
+        color: $bc;
+    }
+
+    .LoginPage-grid-1-forgetPassword{
+        color: $bc2;
+    }
+
+    .LoginPage-grid-1-forgetPassword:hover{
+        color: $c2;
+    }
+
+    .LoginPage-grid-2{
+        margin: $m;
+        background-color: $c;
+        height: $h3;
+        width: $w2;
+        border-radius: $br;
+    }
+
+    .LoginPage-grid-2-content{
+        float: $ta;
+        padding: $p2;
+    }
+
+    .LoginPage-grid-2-img{
+        height: $h6;
+        width: $h6;    
+    }
+
+    .LoginPage-grid-2-text1{
+        font-family: $ff;
+        font-size: $fs3;
+        padding-top: $o;
+        color: $bc;
+    }
+
+    .LoginPage-grid-2-text2{
+        font-family: $ff;
+        font-size: $fs4;
+        color: $bc;
+    }
+
+    .LoginPage-grid-2-button{
+        background-color: $bc;
+        border: $b;
+        padding: $p3;
+        text-align: $ta;
+        text-decoration: $b;
+        display: $d2;
+        margin: $m2;
+        cursor: $cu;
+        border-radius: $p;
+    }
+
+    .LoginPage-grid-2-button-text{
+        color: $c;
+    }
+
+    .LoginPage-grid-2-button-text:hover{
+        color: $bc2;
+    }
+}
+
+@mixin Footer {
+    background-color: $bc2;
+    height: $h;
+    width: $w;
+    bottom: $t;
+
+    .LoginPage-footer-text{
+        color: $bc;
+        padding-top: $br;
+    }
+}
+

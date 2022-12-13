@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+    <fullyQualifiedTypeName name="com.cybage.service.AdminService"/>
+    <fullyQualifiedTypeName name="com.cybage.service.AdminServiceImpl"/>
+    <fullyQualifiedTypeName name="com.cybage.model.AdminCategory"/>
+    <fullyQualifiedTypeName name="com.cybage.service.EventDetailsService"/>
+    <fullyQualifiedTypeName name="com.cybage.service.EventDetailsServiceImpl"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.cybage.model.EventDetails"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.cybage.service.RegistrationService"/>
+    <fullyQualifiedTypeName name="com.cybage.service.RegistrationServiceImpl"/>
+    <fullyQualifiedTypeName name="com.cybage.model.Registration"/>
+    <fullyQualifiedTypeName name="com.cybage.dao.BookingDAO"/>
+    <fullyQualifiedTypeName name="com.cybage.dao.BookingDAOImpl"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="com.cybage.service.BookingService"/>
+    <fullyQualifiedTypeName name="com.cybage.service.BookingServiceImpl"/>
+    <fullyQualifiedTypeName name="com.cybage.model.Booking"/>
+</qualifiedTypeNameHistroy>

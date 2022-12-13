@@ -1,0 +1,97 @@
+body {
+    background-color: wheat;
+    font-size: x-large;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    border-radius: 25px 25px 0 0;
+
+}
+
+#main {
+    border-radius: 25px;
+    background-color: rgb(238, 125, 105);
+    text-align: center;
+    padding: 0;
+    /* margin: 300px 30% 50% 30%; */
+}
+
+button {
+    padding: 5px 30px 5px 30px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.footer,
+.header {
+    width: 100%;
+    height: 2rem;
+    background-color: aqua;
+}
+
+.Profileinfo {
+    width: 66%;
+    height: auto;
+    background-color: papayawhip;
+
+}
+
+.main {
+    width: 34%;
+    height: auto;
+    background-color: goldenrod;
+}
+
+.twodiv {
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.profile_image {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100px;
+}
+
+@media screen and (max-width:900px) {
+    .Profileinfo {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        background-color: goldenrod;
+    }
+
+    .twodiv {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+
+}
+
+.cart_header {
+    background-color: rgb(236, 71, 42);
+    /* border: 0.15rem solid goldenrod; */
+    width: 100%;
+    height: auto;
+}
+
+.cart_footer {
+    height: 8rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    bottom: 0;
+}

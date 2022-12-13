@@ -1,0 +1,13 @@
+@import '_allMixinig.scss';
+
+.LoginPage-bgImg{
+    @include Background
+}
+
+.LoginPage-grid{
+    @include Columns
+}
+
+.LoginPage-footer{
+    @include Footer
+}
